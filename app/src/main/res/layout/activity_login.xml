@@ -49,6 +49,7 @@
                 android:background="@drawable/gradiantcurve"
                 android:layout_gravity="center"
                 android:hint="Username"
+                android:textColorHint="@color/black"
                 android:paddingLeft="12dp"
 
                 android:drawablePadding="12dp"/>
@@ -60,6 +61,7 @@
                 android:background="@drawable/gradiantcurve"
                 android:layout_gravity="center"
                 android:hint="Password"
+                android:textColorHint="@color/black"
                 android:password="true"
                 android:paddingLeft="12dp"
 
@@ -75,6 +77,15 @@
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 app:cornerRadius = "10dp"/>
+            <TextView
+                android:id="@+id/registerTextView"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/veryyellow"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:text="Don't have an account? Register here"
+                android:textColor="@android:color/darker_gray" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
