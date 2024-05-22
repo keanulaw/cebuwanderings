@@ -23,6 +23,7 @@
        app:cardCornerRadius="25dp"
        android:layout_margin="20dp"
        app:cardElevation="20dp"
+       android:backgroundTint="@color/white"
        >
        <LinearLayout
            android:layout_width="match_parent"
@@ -37,7 +38,8 @@
                android:layout_height="wrap_content"
                android:text="LOGIN"
                android:backgroundTint="@color/veryyellow"
-               android:layout_marginTop="10dp"/>
+               android:layout_marginTop="10dp"
+               android:textColor="@color/black"/>
            <Button
                android:id="@+id/registerButton"
                android:layout_width="match_parent"
@@ -45,7 +47,8 @@
                android:text="REGISTER"
                android:backgroundTint="@color/yellow"
                android:layout_marginTop="20dp"
-               android:layout_marginBottom="20dp"/>
+               android:layout_marginBottom="20dp"
+               android:textColor="@color/black"/>
        </LinearLayout>
    </androidx.cardview.widget.CardView>
 

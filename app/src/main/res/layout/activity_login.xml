@@ -33,6 +33,7 @@
         android:layout_margin="20dp"
         app:cardCornerRadius="25dp"
         app:cardElevation="20dp"
+        android:backgroundTint="@color/white"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,9 +50,9 @@
                 android:background="@drawable/gradiantcurve"
                 android:layout_gravity="center"
                 android:hint="Username"
+                android:textColor="@color/black"
                 android:textColorHint="@color/black"
                 android:paddingLeft="12dp"
-
                 android:drawablePadding="12dp"/>
             <EditText
                 android:id="@+id/password"
@@ -61,6 +62,7 @@
                 android:background="@drawable/gradiantcurve"
                 android:layout_gravity="center"
                 android:hint="Password"
+                android:textColor="@color/black"
                 android:textColorHint="@color/black"
                 android:password="true"
                 android:paddingLeft="12dp"
