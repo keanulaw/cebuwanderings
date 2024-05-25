@@ -13,7 +13,7 @@
         android:scaleType="centerCrop"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
-        android:background="@drawable/btn_background_1"/>
+        />
 
     <TextView
         android:id="@+id/textViewName"
@@ -22,31 +22,6 @@
         android:text="Name: Your Name"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
-
-    <TextView
-        android:id="@+id/textViewEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email: Your Email"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"/>
-
-    <TextView
-        android:id="@+id/textViewWallet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Wallet Balance: $X.XX"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"/>
-
-    <TextView
-        android:id="@+id/textViewPoints"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Points: Your Points"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"/>
-
     <Button
         android:id="@+id/buttonReturn"
         android:layout_width="wrap_content"

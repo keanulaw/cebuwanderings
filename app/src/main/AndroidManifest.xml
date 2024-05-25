@@ -13,23 +13,26 @@
         android:theme="@style/Theme.CebuWanderingsAgain"
         tools:targetApi="31">
         <activity
-            android:name=".Place3Activity"
+            android:name=".sampledata.TopsActivity"
             android:exported="false" />
         <activity
-            android:name=".Place2Activity"
+            android:name=".sampledata.ApoloActivity"
             android:exported="false" />
         <activity
-            android:name=".Place1Activity"
+            android:name=".sampledata.Place3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sampledata.Place2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sampledata.Place1Activity"
             android:exported="false" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".RestaurantPageActivity"
+            android:name=".HomePageActivity"
             android:exported="false" />
-        <activity android:name=".HomePageActivity"
-            android:exported="false">
-        </activity>
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />

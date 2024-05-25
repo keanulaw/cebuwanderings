@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sampledata.Place1Activity">
+    tools:context=".sampledata.ApoloActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:layout_width="300dp"
         android:layout_height="290dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/three"
+        android:src="@drawable/mountain1"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
         android:layout_below="@id/bottomNavigation"
